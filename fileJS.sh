@@ -1,3 +1,6 @@
+# 用来监视文件变化
+
+
 function whether_changed(){
     local file_path='/home/lwl/Study/latex/test.tex' #要监视文件的路径
     local check_time=2 #等待时间
@@ -16,6 +19,7 @@ function whether_changed(){
             xelatex test.tex
         fi
     done
+
 }
 
 
